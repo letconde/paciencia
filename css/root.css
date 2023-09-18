@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+:root {
+    --primary-color-main: rgb(140, 137, 137);
+    --second-color-main: rgb(120, 88, 88);
+    --font-color: white;
+}
+
+body{
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    background: var(--primary-color-main);
+    margin: 0 auto;
+}
+
+#item {
+     margin-top: 10px;
+     padding: 10px;
+     background-color: rgb(136, 70, 144);
+     
+}
